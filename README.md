@@ -21,6 +21,9 @@ les bases du **développement** et du **traitement de données** sur cette plate
 - Développer de bonnes pratiques de programmation
 - Monter en compétence en SQL
 
+## Compilateur et Environnement
+GnuCOBOL
+- [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)
 ---
 
 📘 *Ce dépôt évoluera au fil de mon apprentissage.*
