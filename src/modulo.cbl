@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. PAIRORIMP.
+       PROGRAM-ID. MODULO.
        AUTHOR. DILHAN.
        DATE-WRITTEN. 05-01-2026
 
@@ -16,3 +16,5 @@
                DISPLAY "Le nombre " NUMBER-INPUT " est impair."
            END-IF.
       
+
+           
