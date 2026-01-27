@@ -20,6 +20,10 @@ validate:
 	cobc -fsyntax perform.cbl
 	cobc -fsyntax testIF.cbl
 	cobc -fsyntax Hello_world.cbl
+	cobc -fsyntax modulo.cbl
+	cobc -fsyntax CBL1.cbl
+	cobc -fsyntax BoucleFor.cbl
+	cobc -fsyntax occurs.cbl
 	@echo "CODE VALIDATED"
 
 all:
@@ -38,13 +42,21 @@ clean:
 	del .\Move_to.exe
 	del .\perform.exe
 	del .\testIF.exe
-	del .\Hello_world.exe	
+	del .\Hello_world.Exe
+	del .\modulo.exe
+	del .\CBL1.exe
+	del .\BoucleFor.exe
+	del .\occurs.exe
 	@echo "ALL EXE FILES DELETED"
 log:
 	git log -p src/Move_to.cbl
 	git log -p src/perform.cbl
 	git log -p src/testIF.cbl
 	git log -p src/Hello_world.cbl
+	git log -p src/modulo.cbl
+	git log -p src/CBL1.cbl
+	git log -p src/BoucleFor.cbl
+	git log -p src/occurs.cbl
 	@echo "LOG DISPLAYED"
 run:
 	.\exe\Move_to.exe
@@ -56,5 +68,11 @@ run:
 	.\exe\Hello_world.exe
 	@echo "ok4"
 	.\exe\modulo.exe	
-	@echo "ok5"	
+	@echo "ok5"
+	.\exe\CBL1.exe
+	@echo "ok6"
+	.\exe\BoucleFor.exe
+	@echo "ok7"
+	.\exe\occurs.exe
+	@echo "ok8"	
 	@echo "ALL PROGRAMS RAN"
