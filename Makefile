@@ -31,6 +31,7 @@ all:
 	$(COBC) -x -o .\Exe\Hello_world.exe src/Hello_world.cbl
 	$(COBC) -x -o .\Exe\CBL1.exe        src/CBL1.cbl
 	$(COBC) -x -o .\Exe\BoucleFor.exe   src/BoucleFor.cbl
+	$(COBC) -x -o .\Exe\occurs.exe	    src/occurs.cbl
 	@echo "ALL FILES COMPILED"
 
 clean:
