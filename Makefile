@@ -28,7 +28,7 @@ validate:
 
 all:
 #	cobc -x -o .\Exe\Hell_world.exe .\src\Hello_world.cbl
-	$(COBC) -x -o .\Exe\modulo.cbl      src/modulo.cbl
+	$(COBC) -x -o .\Exe\modulo.exe      src/modulo.cbl
 	$(COBC) -x -o .\Exe\Move_to.exe     src/Move_to.cbl
 	$(COBC) -x -o .\Exe\perform.exe     src/perform.cbl
 	$(COBC) -x -o .\Exe\TestIf.exe      src/testIF.cbl
@@ -39,14 +39,14 @@ all:
 	@echo "ALL FILES COMPILED"
 
 clean:
-	del .\Move_to.exe
-	del .\perform.exe
-	del .\testIF.exe
-	del .\Hello_world.Exe
-	del .\modulo.exe
-	del .\CBL1.exe
-	del .\BoucleFor.exe
-	del .\occurs.exe
+	del .\Exe\\Move_to.exe
+	del .\Exe\perform.exe
+	del .\Exe\testIF.exe
+	del .\Exe\Hello_world.Exe
+	del .\Exe\modulo.exe
+	del .\Exe\CBL1.exe
+	del .\Exe\BoucleFor.exe
+	del .\Exe\occurs.exe
 	@echo "ALL EXE FILES DELETED"
 log:
 	git log -p src/Move_to.cbl
