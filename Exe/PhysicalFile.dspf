@@ -1,0 +1,37 @@
+      * Medical Company Discovery System - Display File
+      * File: PhysicalFile.dspf
+      * Description: Display specifications for medical company information
+     A                                      DSPSIZ(24 80)
+     A                                      INDARA
+     A                                      HELP
+     A                                      PRINT
+
+      ****  HEADER RECORD  ****
+     A          R HEADER
+     A                                      TEXT('Header Information')
+     A            HDRCOY        40   O  1  1TEXT('Company Name')
+     A            HDRDATE        8   O  1 60TEXT('Current Date')
+     A            HDRTIME        6   O  2 60TEXT('Current Time')
+
+      ****  DETAIL RECORD - COMPANY INFORMATION  ****
+     A          R COMPINFO
+     A                                      TEXT('Medical Company Details')
+     A            COMPID         8   B  4  5TEXT('Company ID')
+     A            COMPNAM       60   B  5  5TEXT('Company Name')
+     A            INDTYP        40   B  6  5TEXT('Industry Type')
+     A            MEDSPEC       50   B  7  5TEXT('Medical Speciality')
+     A            ESTDYEAR       4   B  8  5TEXT('Established Year')
+     A            EMPCOUNT       7   B  9  5TEXT('Employee Count')
+     A            REVENUE       12   B 10  5TEXT('Annual Revenue')
+     A            COUNTRY       30   B 11  5TEXT('Country')
+     A            STATE         20   B 12  5TEXT('State/Province')
+     A            CITY          30   B 13  5TEXT('City')
+     A            POSTALCODE    10   B 14  5TEXT('Postal Code')
+     A            ADDRESS1      60   B 15  5TEXT('Street Address 1')
+     A            ADDRESS2      60   B 16  5TEXT('Street Address 2')
+     A            PHONENO       20   B 17  5TEXT('Phone Number')
+     A            EMAILADDR     60   B 18  5TEXT('Email Address')
+     A            WEBSITE       80   B 19  5TEXT('Website URL')
+     A            CERTTYPE      40   B 20  5TEXT('Certification Type')
+     A            CERTEXP        8   B 21  5TEXT('Certification Expiry')
+     A            NOTES        100   B 22  5TEXT('Additional Notes')
