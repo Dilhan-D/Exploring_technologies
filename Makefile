@@ -28,6 +28,7 @@ validate:
 
 all:
 #	cobc -x -o .\Exe\Hell_world.exe .\src\Hello_world.cbl
+	$(COBC) -x -o .\Exe\File_record.exe     src/File_record.cbl
 	$(COBC) -x -o .\Exe\modulo.exe      src/modulo.cbl
 	$(COBC) -x -o .\Exe\Move_to.exe     src/Move_to.cbl
 	$(COBC) -x -o .\Exe\perform.exe     src/perform.cbl
