@@ -18,7 +18,6 @@ CREATE TABLE Company.Orders (
     FOREIGN KEY (ProductID) REFERENCES Company.Products(ProductID)
 );
 
-
 -- Create Products table
 CREATE TABLE Company.Products (
     ProductID INT PRIMARY KEY,
