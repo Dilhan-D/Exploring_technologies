@@ -14,9 +14,9 @@ les bases du **développement** et du **traitement de données** :
 
 # COBOL
  **Compilateur -> COBC**
- **COBC est un compilateur COBOL open-source qui permet de compiler des programmes COBOL en code machine exécutable.**
- **Ordre de compile -> COBC + fichier de destination de la compilation + fichier source COBOL**
- **exemple de compil : $(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl**
+ **COBC est un compilateur COBOL open-source qui permet de compiler des programmes COBOL en code machine exécutable.**  
+ **Ordre de compile -> COBC + fichier de destination de la compilation + fichier source COBOL**  
+ **exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**  
 
 # C
   **Compilateur -> GCC**
@@ -35,8 +35,8 @@ les bases du **développement** et du **traitement de données** :
 - Monter en compétence en SQL
 
 ## Compilateur et Environnement
-- GnuCOBOL [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)
-- GCC [GCC Official Site](https://gcc.gnu.org/)
+- GnuCOBOL [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)  
+- GCC [GCC Official Site](https://gcc.gnu.org/)  
 
 ---
 
