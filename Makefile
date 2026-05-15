@@ -16,6 +16,7 @@ push:
 
 validate:
 	@echo "Validating code..."
+	cobc -fsyntax File_record.cbl
 	cobc -fsyntax Move_to.cbl
 	cobc -fsyntax perform.cbl
 	cobc -fsyntax testIF.cbl
@@ -49,8 +50,10 @@ clean:
 	del .\Exe\CBL1.exe
 	del .\Exe\BoucleFor.exe
 	del .\Exe\occurs.exe
+	del .\Exe\File_record.exe
 	@echo "ALL EXE FILES DELETED"
 log:
+	git log -p src/File_record.cbl
 	git log -p src/Move_to.cbl
 	git log -p src/perform.cbl
 	git log -p src/testIF.cbl
@@ -77,4 +80,6 @@ run:
 	@echo "ok7"
 	.\exe\occurs.exe
 	@echo "ok8"	
+	@.\exe\File_record.exe
+	@echo "ok9"
 	@echo "ALL PROGRAMS RAN"
