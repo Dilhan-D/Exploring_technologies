@@ -13,7 +13,7 @@ les bases du **développement** et du **traitement de données** :
 - **SQL**
 
 # COBOL
- **Compilateur -> COBC**
+ **Compilateur -> COBC**  
  **COBC est un compilateur COBOL open-source qui permet de compiler des programmes COBOL en code machine exécutable.**  
  **Ordre de compile -> COBC + fichier de destination de la compilation + fichier source COBOL**  
  **Exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**  
