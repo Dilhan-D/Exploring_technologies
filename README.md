@@ -19,8 +19,8 @@ les bases du **développement** et du **traitement de données** :
  **Exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**  
 
 # C
-  **Compilateur -> GCC**
-  **GCC (GNU Compiler Collection) est un compilateur. Il permet de compiler du code source en code machine exécutable.**
+  **Compilateur -> GCC**  
+  **GCC (GNU Compiler Collection) est un compilateur. Il permet de compiler du code source en code machine exécutable.**  
   **Exemple de compil : `gcc -o pg1 pgm1.c`**
 
 
