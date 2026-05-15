@@ -16,12 +16,12 @@ les bases du **développement** et du **traitement de données** :
  **Compilateur -> COBC**
  **COBC est un compilateur COBOL open-source qui permet de compiler des programmes COBOL en code machine exécutable.**  
  **Ordre de compile -> COBC + fichier de destination de la compilation + fichier source COBOL**  
- **exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**  
+ **Exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**  
 
 # C
   **Compilateur -> GCC**
   **GCC (GNU Compiler Collection) est un compilateur. Il permet de compiler du code source en code machine exécutable.**
-  ** exemple de compil : `gcc -o pg1 pgm1.c`**
+  **Exemple de compil : `gcc -o pg1 pgm1.c`**
 
 
 
