@@ -36,9 +36,9 @@ les bases du **développement** et du **traitement de données** :
 
 ## Compilateur et Environnement
 GnuCOBOL
-- [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)
+[GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)
 GCC
-- [GCC Official Site](https://gcc.gnu.org/)
+[GCC Official Site](https://gcc.gnu.org/)
 ---
 
 📘 *Ce dépôt évoluera au fil de mon apprentissage.*
