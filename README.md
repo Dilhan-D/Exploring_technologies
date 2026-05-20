@@ -26,9 +26,10 @@ les bases du **développement** et du **traitement de données** :
 # Rust
   **Compilateur -> Rustc**  
   **Rustc est le compilateur officiel du langage de programmation Rust. Il permet de compiler du code source Rust en code machine exécutable.**  
-  **Exemple de compil : `rustc main.rs`**
-
-## 🎯 Objectifs
+  **Exemple de compil : `rustc main.rs`**  
+  **Début de la formation rust :20/05/2026**  
+  
+  ## 🎯 Objectifs
 - Découvrir l’environnement **IBM i et Z/OS et +**
 - Comprendre la logique des programmes legacy mais puissants
 - Manipuler les données et les jobs système
