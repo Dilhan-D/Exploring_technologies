@@ -21,9 +21,12 @@ les bases du **développement** et du **traitement de données** :
 # C
   **Compilateur -> GCC**  
   **GCC (GNU Compiler Collection) est un compilateur. Il permet de compiler du code source en code machine exécutable.**  
-  **Exemple de compil : `gcc -o pg1 pgm1.c`**
+  **Exemple de compil : `gcc -o pg1 pgm1.c`**  
 
-
+# Rust
+  **Compilateur -> Rustc**  
+  **Rustc est le compilateur officiel du langage de programmation Rust. Il permet de compiler du code source Rust en code machine exécutable.**  
+  **Exemple de compil : `rustc main.rs`**
 
 ## 🎯 Objectifs
 - Découvrir l’environnement **IBM i et Z/OS et +**
@@ -37,6 +40,7 @@ les bases du **développement** et du **traitement de données** :
 ## Compilateur et Environnement
 - GnuCOBOL [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)  
 - GCC [GCC Official Site](https://gcc.gnu.org/)  
+- Rustc [Rustc Official Site](https://rust-lang.org)  
 
 ---
 
