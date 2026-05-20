@@ -7,7 +7,9 @@
        PROCEDURE DIVISION.
            PERFORM VARYING I FROM 1 BY 1 UNTIL I > 5
                IF I = 3
-                   DISPLAY "Trois !"
+                *>    DISPLAY "Trois !"
+      *            display "TROIS !"
+                   display "C'est un nombre impair."
                IF I = 5
                    DISPLAY "Cinq !"   
                ELSE
