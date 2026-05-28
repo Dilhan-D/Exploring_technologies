@@ -1,3 +1,8 @@
+// This is a simple Rust program that prints three lines of text to the console.
+// @date 2026-05-28
+ 
 fn main() {
-    println!("Hello, world!");
+  println!("Hello World!");
+  println!("I am learning Rust.");
+  println!("It is awesome!");
 }
