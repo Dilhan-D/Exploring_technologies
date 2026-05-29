@@ -1,31 +1,33 @@
 # Auteur : Dilhan 
 ### Date : 2024-12-11
 
-Ce dépôt montre **mes premiers pas et mon apprentissage sur des technos tel que le cobol, makefile et plus encore**.
+Ce dépôt montre **mes premiers pas et mon apprentissage sur des technos tel que le cobol, c, rust et plus encore**.
 
-Je m’entraîne à utiliser les technologies suivantes afin de mieux comprendre  
+Je m’entraîne à utiliser les technologies afin de mieux comprendre  
 les bases du **développement** et du **traitement de données** :
 
 ## 🛠️ Technologies & Langages
 
-- **RPGLE**
-- **CL / JCL**
+- **COBOL**
+- **C**
+- **RUST**
 - **SQL**
+- **et plus encore...**
 
-# COBOL
+# [![COBOL](https://img.shields.io/badge/COBOL-005CA5?style=for-the-badge&logo=cobol&logoColor=white)](https://fr.wikipedia.org/wiki/Cobol)
  **Début de la formation cobol : *01/11/2025***  
  **Compilateur -> COBC**  
  **COBC est un compilateur COBOL open-source qui permet de compiler des programmes COBOL en code machine exécutable.**  
  **Ordre de compile -> COBC + fichier de destination de la compilation + fichier source COBOL**  
  **Exemple de compil : `$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl`**   
 
-# C
+# [![C](https://img.shields.io/badge/-B10QD58?style=for-the-badge&logo=c&logoColor=black)](https://fr.wikipedia.org/wiki/C_(langage))
   **Début de la formation C : *18/05/2026***  
   **Compilateur -> GCC**  
   **GCC (GNU Compiler Collection) est un compilateur. Il permet de compiler du code source en code machine exécutable.**  
   **Exemple de compil : `gcc -o pg1 pgm1.c`**  
 
-# Rust
+# [![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://fr.wikipedia.org/wiki/Rust_(langage))
   **Début de la formation rust : *20/05/2026***   
   **Compilateur -> Rustc**  
   **Visual Studio Build Tools (obligatoire sur Windows) :  - C++ build tools(MSVC)  - Windows SDK**  
@@ -35,18 +37,17 @@ les bases du **développement** et du **traitement de données** :
 
   ## 🎯 Objectifs
 - Découvrir l’environnement **IBM i et Z/OS et +**
-- Comprendre la logique des programmes legacy mais puissants
-- Manipuler les données et les jobs système
+- Comprendre la logique des programmes legacy ( ou pas ) mais puissants
 - Développer de bonnes pratiques de programmation
 - Gestion des compilations et des erreurs
 - Gérer les dépendances et automatiser les process avec Makefile
-- Monter en compétence en SQL
+- Monter en compétence en SQL, gestion de bdd
+
 
 ## Compilateur et Environnement
-> GnuCOBOL [GnuCOBOL Official Site](https://gnucobol.sourceforge.io/)  
-> GCC [GCC Official Site](https://gcc.gnu.org/)  
-> Rustc [Rustc Official Site](https://rust-lang.org)  
-
----
+[![GnuCOBOL](https://img.shields.io/badge/GnuCOBOL-blue?style=for-the-badge)](https://gnucobol.sourceforge.io/)  
+[![GCC](https://img.shields.io/badge/GCC-5C2D91?style=for-the-badge)](https://gcc.gnu.org/)  
+[![Rustc](https://img.shields.io/badge/Rustc-black?style=for-the-badge)](https://rust-lang.org/)  
+[![Visual Studio Build Tools](https://img.shields.io/badge/VS%20Build%20Tools-required%20on%20Windows-5C2D91?style=for-the-badge)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)  
 
 📘 *Ce dépôt évoluera au fil de mon apprentissage.*
