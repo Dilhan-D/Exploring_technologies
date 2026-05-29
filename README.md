@@ -35,14 +35,20 @@ les bases du **développement** et du **traitement de données** :
   **Exemple de compil : `rustc main.rs`**  
   
 
-  ## 🎯 Objectifs
-- Découvrir l’environnement **IBM i et Z/OS et +**
-- Comprendre la logique des programmes legacy ( ou pas ) mais puissants
-- Développer de bonnes pratiques de programmation
-- Gestion des compilations et des erreurs
-- Gérer les dépendances et automatiser les process avec Makefile
-- Monter en compétence en SQL, gestion de bdd
-
+  ## 🎯 Objectifs 
+- Développer une meilleure compréhension des processus de développement.
+- Renforcer mon analyse des logiques applicatives et des traitements.
+- Automatiser ce qui peut l’être afin de rendre le travail plus fluide et plus fiable.
+- Mieux appréhender les étapes de compilation, de correction et d’intégration.
+- Construire une méthode de travail plus rigoureuse et plus efficace.
+## 🎯Compétences à développer
+- Développer ma rigueur et ma capacité à travailler avec méthode.
+- Renforcer ma patience et ma persévérance.
+- Améliorer ma logique, mon esprit d’analyse.
+- Gagner en autonomie dans l’apprentissage et la compréhension de nouveaux outils.
+- Mieux structurer mon travail pour produire un code plus clair et plus maintenable.
+- Apprendre à m’adapter à des environnements techniques variés.
+- Développer une vision plus globale du développement, entre legacy, automatisation et gestion de données.
 
 ## Compilateur et Environnement
 [![GnuCOBOL](https://img.shields.io/badge/GnuCOBOL-blue?style=for-the-badge)](https://gnucobol.sourceforge.io/)  
