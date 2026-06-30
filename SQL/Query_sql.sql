@@ -29,3 +29,17 @@ CREATE TABLE Company.Products (
 Select * from Company.Users;
 Select * from Company.Orders;
 Select * from Company.Products; 
+
+
+-- Inner join 
+SELECT
+    o.OrderID,
+    o.UserID,
+    o.ProductID,
+    p.ProductName,
+    p.Price,
+    o.OrderDate
+FROM Company.Orders AS o
+INNER JOIN Company.Products AS p
+    ON o.ProductID = p.ProductID;
+
