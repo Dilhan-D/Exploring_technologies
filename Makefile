@@ -29,16 +29,16 @@ validate:
 
 all:
 #	cobc -x -o .\Exe\Hell_world.exe .\src\Hello_world.cbl
-	$(COBC) -x -o .\Exe\File_record.exe src/File_record.cbl
-	$(COBC) -x -o .\Exe\modulo.exe      src/modulo.cbl
-	$(COBC) -x -o .\Exe\Move_to.exe     src/Move_to.cbl
-	$(COBC) -x -o .\Exe\perform.exe     src/perform.cbl
-	$(COBC) -x -o .\Exe\TestIf.exe      src/testIF.cbl
-	$(COBC) -x -o .\Exe\Hello_world.exe src/Hello_world.cbl
-	$(COBC) -x -o .\Exe\CBL1.exe        src/CBL1.cbl
-	$(COBC) -x -o .\Exe\BoucleFor.exe   src/BoucleFor.cbl
-	$(COBC) -x -o .\Exe\occurs.exe	    src/occurs.cbl
-	$(COBC) -x -o .\Exe\Variables.exe   src/Variables.cbl
+	$(COBC) -x -o .\Exe\File_record.exe src_cbl/File_record.cbl
+	$(COBC) -x -o .\Exe\modulo.exe      src_cbl/modulo.cbl
+	$(COBC) -x -o .\Exe\Move_to.exe     src_cbl/Move_to.cbl
+	$(COBC) -x -o .\Exe\perform.exe     src_cbl/perform.cbl
+	$(COBC) -x -o .\Exe\TestIf.exe      src_cbl/testIF.cbl
+	$(COBC) -x -o .\Exe\Hello_world.exe src_cbl/Hello_world.cbl
+	$(COBC) -x -o .\Exe\CBL1.exe        src_cbl/CBL1.cbl
+	$(COBC) -x -o .\Exe\BoucleFor.exe   src_cbl/BoucleFor.cbl
+	$(COBC) -x -o .\Exe\occurs.exe	    src_cbl/occurs.cbl
+	$(COBC) -x -o .\Exe\Variables.exe   src_cbl/Variables.cbl
 	@echo "ALL FILES COMPILED"
 
 clean:
@@ -53,15 +53,15 @@ clean:
 	del .\Exe\File_record.exe
 	@echo "ALL EXE FILES DELETED"
 log:
-	git log -p src/File_record.cbl
-	git log -p src/Move_to.cbl
-	git log -p src/perform.cbl
-	git log -p src/testIF.cbl
-	git log -p src/Hello_world.cbl
-	git log -p src/modulo.cbl
-	git log -p src/CBL1.cbl
-	git log -p src/BoucleFor.cbl
-	git log -p src/occurs.cbl
+	git log -p src_cbl/File_record.cbl
+	git log -p src_cbl/Move_to.cbl
+	git log -p src_cbl/perform.cbl
+	git log -p src_cbl/testIF.cbl
+	git log -p src_cbl/Hello_world.cbl
+	git log -p src_cbl/modulo.cbl
+	git log -p src_cbl/CBL1.cbl
+	git log -p src_cbl/BoucleFor.cbl
+	git log -p src_cbl/occurs.cbl
 	@echo "LOG DISPLAYED"
 run:
 	.\exe\Move_to.exe
