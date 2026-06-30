@@ -13,4 +13,5 @@ float age1 = 20.5;
 
 int a = 5;
 int b = 10;
-printf("La somme de %d et %d est %d\n", a, b, a + b);}
+printf("La somme de %d et %d est %d\n", a, b, a + b);
+printf("%d", a + b); 
