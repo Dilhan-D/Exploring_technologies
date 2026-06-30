@@ -16,4 +16,7 @@ int b = 10;
 printf("La somme de %d et %d est %d\n", a, b, a + b);
 printf("%d", a + b); 
 a = b;
+int sum = a + b;
 printf("%d", b);
+printf("%d", a);
+printf("%d", sum);
